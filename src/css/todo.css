@@ -1,0 +1,80 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px
+}
+
+.input-todo {
+    display: flex;
+    gap: 30px;
+}
+
+.input-todo input {
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    background-color:rgb(187, 185, 185) ;
+    outline: none;
+    border: 1px solid darkblue;
+    box-shadow:5px 5px 5px rgb(48, 48, 99);
+}
+.input-todo input:hover{
+    background-color: white;
+    color:darkblue;
+    cursor: pointer;
+}
+
+.input-todo button {
+    width: 100px;
+    height: 30px;
+    color: blue;
+    background-color: rgb(187, 185, 185);
+    border: none;
+    border: 1px solid blue;
+    border-radius: 8px;
+    box-shadow:5px 5px 5px rgb(48,48,99);
+}
+
+.input-todo button:hover {
+    background-color: white;
+    color:darkblue;
+    cursor: pointer;
+
+}
+
+.show-todo {
+    width: 600px;
+    min-height: 400px;
+    height: auto;
+    background-color: rgb(114, 114, 199);
+    border: 2px solid darkblue;
+    box-shadow: 4px 4px 2px rgb(75, 74, 74);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.show-todo button {
+    width: 100px;
+    height: 30px;
+    color: blue;
+    background-color:rgb(187, 185, 185);
+    border:2px solid darkblue;
+    gap: 80px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgb(43, 43, 85);
+}
+.show-todo table{
+    width:90%;
+    height: auto;
+}
+
+.show-todo button:hover {
+    background-color: white;
+    color:darkblue;
+    cursor: pointer;
+}
